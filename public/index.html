@@ -11,9 +11,9 @@
   <header>
     <h1>🎯 Simulateur de Choix Rationnel</h1>
     <p class="description">
-      Cette application vous permet de comprendre comment un consommateur rationnel choisit un panier de consommation
-      en maximisant son utilité sous une contrainte budgétaire. Tous les concepts fondamentaux de la microéconomie
-      sont illustrés visuellement avec des formules commentées.
+      Cette application vous aide à comprendre comment un consommateur rationnel choisit un panier de biens
+      pour maximiser sa satisfaction (utilité) tout en respectant son budget limité.
+      Elle utilise les outils fondamentaux de la microéconomie à travers des formules simples et visuelles.
     </p>
   </header>
 
@@ -32,19 +32,30 @@
     <section id="concepts">
       <h2>📘 Concepts & Formules Pédagogiques</h2>
       <ul>
-        <li><strong>Fonction d’utilité :</strong> U(x₁, x₂) = x₁<sup>a</sup> × x₂<sup>b</sup> 
-          <br/><em>Elle mesure la satisfaction du consommateur selon la quantité consommée de chaque bien.</em></li>
+        <li><strong>1. Fonction d’utilité :</strong> U(x₁, x₂) = x₁<sup>a</sup> × x₂<sup>b</sup><br/>
+          <em>Elle représente le niveau de satisfaction atteint avec les quantités x₁ (bien X) et x₂ (bien Y).</em>
+        </li>
 
-        <li><strong>Contrainte budgétaire :</strong> R = P₁·x₁ + P₂·x₂
-          <br/><em>Le consommateur ne peut acheter que ce que son revenu permet.</em></li>
+        <li><strong>2. Contrainte budgétaire :</strong> R = P₁·x₁ + P₂·x₂<br/>
+          <em>Elle indique que le consommateur ne peut pas dépenser plus que son revenu total.</em>
+        </li>
 
-        <li><strong>Optimum (point de tangence) :</strong> 
-          x₁* = (a·R) / (a·P₁ + b·P₂), x₂* = (b·R) / (a·P₁ + b·P₂)
-          <br/><em>C'est le panier qui maximise l’utilité tout en respectant la contrainte budgétaire.</em></li>
+        <li><strong>3. Courbe d’indifférence :</strong> x₂ = (U / x₁<sup>a</sup>)<sup>1/b</sup><br/>
+          <em>Elle regroupe tous les paniers (x₁, x₂) qui procurent le même niveau d’utilité.</em>
+        </li>
 
-        <li><strong>Taux Marginal de Substitution (TMS) :</strong> 
-          TMS = (Uₘₓ / Uₘᵧ) = P₁ / P₂
-          <br/><em>Le TMS indique combien d’unités du bien Y il faut céder pour obtenir 1 unité de bien X tout en gardant le même niveau de satisfaction.</em></li>
+        <li><strong>4. Facteur de normalisation :</strong> D = a·P₁ + b·P₂<br/>
+          <em>Ce dénominateur permet de pondérer les prix des biens par l’importance que le consommateur leur accorde.</em>
+        </li>
+
+        <li><strong>5. Optimum du consommateur :</strong> 
+          x₁* = (a·R) / D, x₂* = (b·R) / D<br/>
+          <em>C’est le point de tangence entre la courbe d’indifférence la plus haute atteignable et la contrainte budgétaire.</em>
+        </li>
+
+        <li><strong>6. Taux Marginal de Substitution (TMS) :</strong> TMS = (Uₘₓ / Uₘᵧ) = P₁ / P₂<br/>
+          <em>C’est le taux auquel le consommateur est prêt à substituer un bien à l’autre tout en gardant le même niveau de satisfaction.</em>
+        </li>
       </ul>
     </section>
 
