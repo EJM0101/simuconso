@@ -1,0 +1,14 @@
+{
+  "name": "simulateur-choix-conso",
+  "version": "1.0.0",
+  "description": "Application pédagogique de microéconomie – simulateur de choix rationnel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ton Nom",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
